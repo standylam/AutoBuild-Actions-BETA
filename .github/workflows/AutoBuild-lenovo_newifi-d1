@@ -4,7 +4,7 @@
 #   Author: Hyy2001X                                      #
 ###########################################################
 
-name: NEWIFI D1
+name: Lenovo Newifi D1
 
 on:
   repository_dispatch:
@@ -28,12 +28,12 @@ on:
         description: '配置文件'
         default: 'lenovo_newifi-d1'
         type: choice
-##        options:
-##          - 'lenovo_newifi-d1'
+        options:
+          - 'lenovo_newifi-d1'
       Tempoary_FLAG:
         description: '固件标签'
         default: 'AUTO'
-        type: choice
+##        type: choice
 ##        options:
 ##          - 'AUTO'
 ##          - 'Full'
