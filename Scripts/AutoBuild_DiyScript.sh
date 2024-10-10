@@ -128,7 +128,7 @@ EOF
 		esac
 			
 		case "${TARGET_PROFILE}" in
-		d-team_newifi-d2)
+		d-team_newifi-d2 | lenovo_newifi-d1)
 			Copy ${CustomFiles}/${TARGET_PROFILE}_system ${BASE_FILES}/etc/config system
 		;;
 		x86_64)
